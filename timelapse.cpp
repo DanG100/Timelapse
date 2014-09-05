@@ -8,7 +8,7 @@
 #include <iostream>
 #include <fstream>
 #include <time.h>
-
+#include <unistd.h>
 
 using namespace cv;
 using namespace std;
@@ -46,7 +46,7 @@ int main() {
 
 		editLog();
 		runCounter++;
-		msleep(30000);
+		sleep(30000);
 	}
 	return (1);
 }
