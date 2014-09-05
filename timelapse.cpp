@@ -46,7 +46,7 @@ int main() {
 
 		editLog();
 		runCounter++;
-		sleep(30000);
+		sleep(30);
 	}
 	return (1);
 }
